@@ -3,7 +3,7 @@ import { Upload, User, Briefcase, GraduationCap, FolderGit2, Award, Code, FileTe
 import TechTagsList from './components/TechTagList';
 
 function App() {
-  url = import.meta.env.VITE_RESUME_PARSER_API_URL
+  const url = import.meta.env.VITE_RESUME_PARSER_API_URL
   const [resumeData, setResumeData] = useState();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
