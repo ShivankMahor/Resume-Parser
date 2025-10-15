@@ -1,0 +1,75 @@
+@import "tailwindcss";
+/* 
+/* Light Theme */
+@theme {
+ /* Core Backgrounds */
+  --color-background: #fafbfc;
+  --color-surface: #ffffff;
+  /* --color-surface-alt: #f8fafc; */
+  --color-surface-alt: #F1F4F4;
+  --color-surface-hover: #f1f5f9;
+  --color-overlay: rgba(15, 23, 42, 0.4);
+
+  /* Borders */
+  --color-border: #e2e8f0;
+  --color-border-light: #f1f5f9;
+  --color-border-strong: #cbd5e1;
+
+  /* Text */
+  --color-text: #121529;
+  --color-text-secondary: #334155;
+  --color-text-muted: #64748b;
+  --color-text-disabled: #94a3b8;
+
+  /* Primary Brand */
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-primary-light: #dbeafe;
+  --color-primary-dark: #1d4ed8;
+
+  /* Secondary */
+  --color-secondary: #6366f1;
+  --color-secondary-hover: #4f46e5;
+  --color-secondary-light: #e0e7ff;
+
+  /* Accent */
+  --color-accent: #14b8a6;
+  --color-accent-hover: #0d9488;
+  --color-accent-light: #ccfbf1;
+
+  /* Semantic Colors */
+  --color-success: #10b981;
+  --color-success-hover: #059669;
+  --color-success-light: #d1fae5;
+
+  --color-warning: #f59e0b;
+  --color-warning-hover: #d97706;
+  --color-warning-light: #fef3c7;
+
+  --color-danger: #ef4444;
+  --color-danger-hover: #dc2626;
+  --color-danger-light: #fee2e2;
+
+  --color-info: #06b6d4;
+  --color-info-hover: #0891b2;
+  --color-info-light: #cffafe;
+
+  /* Extended Colors */
+  --color-purple: #8b5cf6;
+  --color-purple-light: #ede9fe;
+  
+  --color-pink: #ec4899;
+  --color-pink-light: #fce7f3;
+  
+  --color-orange: #f97316;
+  --color-orange-light: #fed7aa;
+  
+  --color-emerald: #10b981;
+  --color-emerald-light: #d1fae5;
+  
+  --color-sky: #0ea5e9;
+  --color-sky-light: #e0f2fe;
+  
+  --color-rose: #f43f5e;
+  --color-rose-light: #ffe4e6;
+}
